@@ -1,0 +1,6 @@
+#!/bin/bash
+
+rm -rf target && mkdir -p target
+javac -d target -cp src/main/java src/main/java/de/foobar/Main.java
+java -cp target de.foobar.Main
+
