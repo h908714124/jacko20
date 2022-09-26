@@ -1,14 +1,14 @@
 package de.foobar;
 
 primitive class Point {
-    final int x;
-    final int y;
+    final Integer x;
+    final Integer y;
 
-    public Point(int x, int y) {
+    public Point(Integer x, Integer y) {
         this.x = x;
         this.y = y;
     }
 
-    public int x() { return x; }
-    public int y() { return y; }
+    public Integer x() { return x; }
+    public Integer y() { return y; }
 }
